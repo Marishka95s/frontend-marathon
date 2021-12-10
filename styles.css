@@ -8,21 +8,25 @@ body {
   font-family: 'Muli', sans-serif;
   overflow: hidden;
   margin: 0;
-  background: grey;
-  height: 100vh;
+  margin-top: 4vw;
+  /* background:honeydew; */
+  /* height: 100vh; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: darkgrey;
-  font-size: 4.5vh;
+  color:maroon;
+  font-size: 2vw;
+  background-image: url(./bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 h1 {
-  font-size: 8vh;
-  padding: 30px;
+  font-size: 4vw;
+  padding: 1vw;
   margin: 0 auto;
-  color: black;
+  color: goldenrod;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
   /* box-shadow: rgba(100, 100, 111, 0.8) 0px 7px 29px 0px; */
   /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
@@ -33,18 +37,18 @@ ul{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 30px;
+  padding-top: 0.75vh;
   margin: 0;
 }
 li {
   position: relative;
-  padding: 15px;
+  padding: 0.75vh;
   transform: scale(1);
   transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1),
 }
 li:hover {
   /* font-size: 6vh; */
-  color: black;
+  color: gold;
   transform: scale(1.2);
   box-shadow: 0 0 10px black;
 }
@@ -62,16 +66,16 @@ li::after{
   transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1), opacity 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 li:hover::after{
-  background-color: black;
+  background-color: gold;
   opacity: 1;
   transform: scaleX(100%);
 }
 a {
-  color: darkgrey;
+  color: maroon;
   text-decoration: none;
 }
 a:hover {
-  color: black;
+  color: gold;
  
 }
 
